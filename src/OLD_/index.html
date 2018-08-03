@@ -1,0 +1,13 @@
+<% var data = {
+  title: "Заголовок | Проект",
+  author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="container">
+  Первая страница.
+
+  <i style="font-size: 100px;color: red" class="fas fa-server"></i>
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>
